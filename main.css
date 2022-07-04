@@ -1,0 +1,989 @@
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond";
+}
+* {
+  margin: 0;
+}
+.cont-item1 {
+  grid-area: header;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+.cont-item1 img {
+  margin-left: 44px;
+}
+.cont-item5 {
+  grid-area: header2;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+.cont-item6 {
+  border-top: 1px solid rgba(78, 85, 95, 1);
+  border-bottom: 1px solid rgba(78, 85, 95, 1);
+  grid-area: underheader2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Outfit", sans-serif;
+  padding-right: 35px;
+}
+.cont-item6 p {
+  padding-left: 12px;
+  line-height: 26px;
+}
+.cont-item6 img {
+  width: 62px;
+  height: 62px;
+}
+.white2 {
+  color: white;
+  font-size: 22px;
+  padding-right: 25px;
+}
+.cont-item2 {
+  border-top: 1px solid rgba(78, 85, 95, 1);
+  border-bottom: 1px solid rgba(78, 85, 95, 1);
+  grid-area: underheader;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  list-style-type: none;
+  font-family: "Outfit", sans-serif;
+  padding-right: 46px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  transition: 0.7s ease;
+}
+.nav-menu a:hover {
+  color: red;
+}
+.nav-menu {
+  display: flex;
+}
+#gold {
+  color: rgba(209, 176, 107, 1);
+  transition: 0.7s ease;
+}
+#gold:hover {
+  color: red;
+}
+.gold {
+  color: rgba(209, 176, 107, 1);
+}
+.cont-item3 {
+  grid-area: leftside;
+  display: grid;
+  align-content: center;
+  padding-left: 40px;
+}
+.cont-item3 h1 {
+  padding-top: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 65px;
+  font-weight: 300;
+  padding-bottom: 21px;
+}
+.cont-item3 p {
+  font-size: 22px;
+  line-height: 39.6px;
+  font-family: "Outfit", sans-serif;
+}
+.intouch {
+  background-color: rgba(209, 176, 107, 1);
+  width: 13.6%;
+  padding: 24px 71px 25px 71px;
+  margin-top: 28px;
+}
+.intouch:hover {
+  background-color: beige;
+}
+.cont-item4 {
+  grid-area: rightside;
+}
+.cont-item4 img {
+  margin-top: 19px;
+}
+#pages {
+  padding-right: 31px;
+  padding-left: 48px;
+}
+.items {
+  background: rgba(31, 39, 50, 0.81);
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 164px 130px 727px;
+  grid-template-areas:
+    "header header2"
+    "underheader underheader2"
+    "leftside rightside ";
+  background-image: url(./images/BACK\ first.png);
+  background-size: 80%;
+}
+.book {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 22px;
+  padding: 24px 71px 25px 71px;
+  margin-right: 40px;
+}
+.book:hover {
+  background-color: rgb(42, 84, 70);
+}
+.peterparker {
+  padding-top: 140px;
+  padding-left: 200px;
+  display: grid;
+  grid-template-columns: 25% 60%;
+  grid-template-rows: repeat(2, 294px);
+  background-color: rgba(22, 29, 39, 1);
+  gap: 40px 120px;
+  justify-content: center;
+}
+.peter-item2 h1 {
+  font-size: 45px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+}
+.peter-item2 img {
+  padding-top: 11px;
+  padding-bottom: 30px;
+
+  letter-spacing: 0.4px;
+}
+.peter-item2 p {
+  font-size: 20px;
+  color: rgba(215, 215, 215, 1);
+  font-family: "Outfit";
+  width: 100%;
+  line-height: 32px;
+}
+.oho {
+  width: 100%;
+}
+.smallbruh {
+  display: flex;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.smallbruh h1 {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  padding-left: 30px;
+}
+.pen {
+  display: flex;
+  padding: 30px 80px 35px 80px;
+  width: 16.6%;
+  background-color: rgba(59, 67, 78, 1);
+  margin-right: 30px;
+}
+
+.pen p {
+  color: rgba(215, 215, 215, 1);
+  font-size: 22px;
+  font-family: "Outfit";
+  padding-left: 21px;
+}
+.thirty {
+  display: flex;
+  padding: 30px 80px 35px 80px;
+  width: 16.6%;
+  background-color: rgba(209, 176, 107, 1);
+}
+
+.thirty p {
+  color: rgba(31, 39, 50, 1);
+  font-size: 22px;
+  font-family: "Outfit";
+  padding-left: 21px;
+}
+.both {
+  display: flex;
+  justify-content: start;
+}
+
+.explore {
+  padding-top: 270px;
+  display: grid;
+  grid-template-columns: repeat(3, 430px);
+  grid-template-rows: 200px 429px 429px;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgba(22, 29, 39, 1);
+  padding-bottom: 140px;
+}
+.explore-item1 {
+  grid-column: 1;
+}
+.explore-item2 {
+  grid-column: 2 / span 2;
+}
+.box {
+  background-color: rgba(31, 39, 50, 1);
+  height: 100%;
+}
+.box h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 35px;
+  font-weight: 300;
+  padding: 55px 192px 8px 50px;
+}
+.box p {
+  color: rgba(215, 215, 215, 1);
+  font-size: 20px;
+  line-height: 32px;
+  text-align: start;
+  padding-left: 50px;
+  padding-right: 73px;
+  padding-bottom: 28.3px;
+}
+.underbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.firsthr {
+  width: 75%;
+  margin-left: 43px;
+  opacity: 0.2;
+  margin-bottom: 56.7px;
+}
+.view {
+  background-color: rgba(22, 29, 39, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: "Outfit";
+  font-weight: 200;
+  padding: 13px 42px 13px 42px;
+}
+.view:hover {
+  background-color: blanchedalmond;
+  color: brown;
+}
+.explore-item1 h1 {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 58.5px;
+  color: rgba(255, 255, 255, 1);
+}
+.explore-item2 {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Outfit";
+  font-weight: 300;
+  color: rgba(215, 215, 215, 1);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.deserve {
+  height: 713px;
+  text-align: center;
+}
+.deserve h1 {
+  font-size: 45px;
+  font-weight: 300;
+  padding-top: 124px;
+  padding-bottom: 11px;
+}
+.deserve img {
+  padding-bottom: 40px;
+}
+.deserve p {
+  font-family: "Outfit";
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: rgba(144, 144, 144, 1);
+  padding-bottom: 60px;
+}
+.clients {
+  display: flex;
+  background-color: rgba(251, 251, 251, 1);
+  padding: 25px 285px 25px 30px;
+  width: 5%;
+  margin-left: 31px;
+}
+.clients h1 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.clients p {
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(144, 144, 144, 1);
+  font-family: "Outfit";
+}
+.trio {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 82px;
+}
+.clients-text {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  padding-left: 20px;
+  width: 100%;
+}
+.defense {
+  width: 433px;
+  height: 180px;
+  background-image: url(./images/angel.png);
+  font-family: "Outfit";
+  font-weight: 300;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 31px;
+}
+.defense h2 {
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.partners {
+  background-color: rgba(255, 255, 255, 1);
+  height: 446px;
+  padding-bottom: 130px;
+}
+
+.meet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.meet h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 300;
+  padding: 40px 40px;
+}
+.sponsors {
+  display: flex;
+  align-items: center;
+}
+.sponsors img {
+  padding-top: 90px;
+  padding-bottom: 160px;
+  padding-left: 153px;
+  margin-left: 40px;
+}
+.history {
+  background-image: url(./images/backhistory.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1400px;
+  display: grid;
+}
+.history-inside {
+  background-color: rgba(31, 39, 50, 0.85);
+  width: 1360px;
+  height: 1050px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 60% 40%;
+}
+.history-inside-item1 {
+  display: flex;
+}
+.history-left-text {
+  width: 90%;
+  padding-right: 110px;
+  padding-left: 50px;
+}
+.justice-img {
+  padding-top: 80px;
+}
+.history-left-text h1 {
+  padding-top: 90px;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 58.5px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  padding-bottom: 11px;
+}
+.gold-history {
+  padding-top: 50px;
+  padding-bottom: 13px;
+  font-size: 20px;
+  font-family: "Outfit";
+  color: rgba(209, 176, 107, 1);
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+.white-history {
+  font-size: 20px;
+  font-family: "Outfit";
+  line-height: 32px;
+  color: rgba(215, 215, 215, 1);
+}
+.textofhistory {
+  width: 70%;
+  padding-left: 105px;
+  padding-right: 101px;
+}
+.textofhistory h1 {
+  padding-top: 90px;
+  font-size: 45px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 58.5px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  padding-bottom: 11px;
+}
+.textofhistory p {
+  padding-top: 43px;
+  padding-bottom: 37px;
+}
+.percentage {
+  font-family: "Outfit";
+  padding-bottom: 40px;
+}
+.golden {
+  width: 287px;
+  height: 5px;
+  background-color: rgba(209, 176, 107, 1);
+  margin-top: 10px;
+}
+.golden1 {
+  width: 306px;
+  height: 5px;
+  background-color: rgba(209, 176, 107, 1);
+  margin-top: 10px;
+}
+.golden2 {
+  width: 345px;
+  height: 5px;
+  background-color: rgba(209, 176, 107, 1);
+  margin-top: 10px;
+}
+.whiten {
+  width: 383px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.upper {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+}
+.free {
+  background-color: rgba(209, 176, 107, 1);
+  padding: 25px 71px 24px 71px;
+  width: 30%;
+  font-family: "Outfit";
+  font-size: 22px;
+  margin-left: 105px;
+  margin-top: 50px;
+}
+.free:hover {
+  background-color: beige;
+}
+.reviews {
+  background-color: rgba(22, 29, 39, 1);
+}
+
+.clients-item {
+  width: 313px;
+  height: 350px;
+  background-color: rgba(46, 57, 71, 1);
+  border-radius: 1px 1px 1px 40px;
+}
+.clients-item1 {
+  width: 313px;
+  height: 350px;
+  background-color: rgba(46, 57, 71, 1);
+  border-radius: 40px 1px 1px 1px;
+}
+.clients-item1 img {
+  padding: 51.8px 236.24px 33.08px 45.94px;
+}
+.clients-item1 h2 {
+  padding: 0 51px 57px 45px;
+  font-size: 20px;
+  color: rgba(215, 215, 215, 1);
+  font-weight: 300;
+  font-family: "Outfit";
+}
+.clients-item img {
+  padding: 51.8px 236.24px 33.08px 45.94px;
+}
+.clients-item h2 {
+  padding: 0 51px 57px 45px;
+  font-size: 20px;
+  color: rgba(215, 215, 215, 1);
+  font-weight: 300;
+  font-family: "Outfit";
+}
+
+.port1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 22px;
+}
+.port1 p {
+  padding-left: 22px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+}
+.port {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.port p {
+  padding-left: 22px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+}
+#rat {
+  font-family: "Outfit";
+}
+#nat {
+  font-size: 30px;
+}
+.clientsrew {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.alltogether {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 206px;
+}
+.reviews h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 45px;
+  line-height: 54px;
+  letter-spacing: 0.4px;
+  font-weight: 200;
+}
+.review-text {
+  padding-top: 124px;
+  padding-bottom: 11px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.review-text img {
+  padding-bottom: 100px;
+}
+.attorneys {
+  padding-bottom: 131px;
+}
+.attorneys h1 {
+  color: rgb(4, 4, 4);
+  font-size: 45px;
+  line-height: 54px;
+  letter-spacing: 0.4px;
+  font-weight: 200;
+}
+.attorneys-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 433px);
+  gap: 30px;
+  justify-content: center;
+}
+.attorneys-cont img {
+  width: 100%;
+}
+.thesame {
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: rgba(22, 29, 39, 1);
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.thesameaswell {
+  font-size: 20px;
+  color: rgba(209, 176, 107, 1);
+  letter-spacing: 0.4px;
+  line-height: 32px;
+  font-family: "Outfit";
+  text-align: center;
+}
+.consultation {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(22, 29, 39, 1);
+}
+.consultation-items1 {
+  padding-left: 40px;
+  display: grid;
+  justify-content: center;
+}
+.consultation-items1 h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.4px;
+  padding-top: 151px;
+  padding-bottom: 9px;
+  font-weight: 300;
+}
+.consultation-items1 img {
+  padding-bottom: 43px;
+}
+#cons-white {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: rgba(215, 215, 215, 1);
+  font-family: "Outfit";
+  padding-bottom: 37px;
+}
+.conntact {
+  background-color: rgba(209, 176, 107, 1);
+  width: 20.3%;
+  padding: 24px 71px 25px 71px;
+  font-size: 22px;
+  font-family: "Outfit";
+  line-height: 35.2px;
+  margin-bottom: 150px;
+}
+.conntact:hover {
+  background-color: bisque;
+}
+.white-back {
+  width: 630px;
+  height: 490px;
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.consultation-items2 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.gray-text {
+  border: 15px solid rgba(215, 215, 215, 1);
+  width: 550px;
+  height: 410px;
+}
+.phoneus {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  padding-top: 37px;
+}
+.textinsidephone{
+    padding-left: 15px;
+}
+.textinsidephone p{
+    font-size: 18px;
+    font-family: "Outfit";
+    line-height: 21.6px;
+}
+.phone-number{
+    font-size: 30px;
+    font-family: "Outfit";
+    color: rgba(31, 39, 50, 1);
+}
+
+.gray-text h1 {
+  font-size: 42px;
+  color: rgba(31, 39, 50, 1);
+  font-weight: 300;
+  padding-top: 65px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+#greyone {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  color: rgba(144, 144, 144, 1);
+  font-family: "Outfit";
+  text-align: start;
+  padding-left: 80px;
+}
+.appointment{
+    background-image: url(./images/backapp.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 1000px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    background-color: rgba(31, 39, 50, 1);
+    width: 1360px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    position: relative;
+}
+input{
+    background-color: rgba(31, 39, 50, 1);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 90%;
+    padding: 15px 20px;
+    font-size: 1.1em;
+    color: rgb(136, 65, 65);
+}
+label{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 21.6px;
+    font-family: "Outfit";
+   
+}
+.fname{
+    display: grid;
+    grid-template-columns: repeat(2, 556px);
+    grid-template-rows: 30px 30px;
+    gap: 70px 40px; 
+}
+textarea{
+    background-color: rgba(31, 39, 50, 1); 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 1135px;
+    font-size: 1.5em;   
+    color: rgb(136, 65, 65);
+}
+.fname-item1{
+    padding-bottom: 30px;
+}
+.getappointment{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 32px 30px 31px 31px;
+    font-family: "Outfit";
+    font-size: 25px ;
+    color: rgba(59, 67, 78, 1);
+    position: absolute;
+    top: 80%;
+    right: 550px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.getappointment:hover{
+    background-color: aqua;
+}
+.recent-blogs{
+    background-color: rgba(31, 39, 50, 1);
+    padding-bottom: 100px;
+    height: 300vh;
+}
+.recent-cont{
+    display: grid;
+    grid-template-columns: 47% 48%;
+    grid-template-rows: 546px;
+}
+.corp{
+    padding-top: 130px;
+    color: rgba(209, 176, 107, 1);
+    font-size: 21px;
+    font-family: 'Outfit';
+    padding-bottom: 23.28px;
+}
+.under-blog{
+    margin-bottom: 24.74px;
+    width: 70%;
+    opacity: 0.2;
+}
+.recent-item1{
+    display: grid;
+    justify-content: center;
+}
+.recent-item2-text h1{
+    font-size: 45px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 21px;
+}
+.coll{
+    font-size: 20px;
+    color: rgba(215, 215, 215, 1);
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    font-family: 'Outfit';
+    padding-bottom: 17px    ;
+}
+#view a{
+    font-size: 22px;
+    font-family: 'Outfit';
+    color: rgba(209, 176, 107, 1);
+    text-decoration: underline;
+    transition: 0.6s ease;
+}
+#view a:hover{
+    color: royalblue;
+}
+.blogs-text{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.blogs-text h1{
+    padding-top: 139px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 45px;
+    font-weight: 300;
+    padding-bottom: 11px;  
+}
+.blogs-text img{
+    padding-bottom: 70px;
+}
+#cutter{
+    width: 90%;
+ margin: auto;
+ opacity: 0.3;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+.corporate{
+    display: grid;
+    grid-template-columns: repeat(3, 440px);
+    grid-template-rows: repeat(3, 730px);
+    gap: 30px;
+    justify-content: center;
+}
+.law{
+    font-size: 21px;
+    font-family: 'Outfit';
+    color: rgba(209, 176, 107, 1);
+    padding-top: 24px;
+    padding-bottom: 22.36px;
+}
+.underlaw{
+    opacity: 0.2;
+    margin-bottom: 24.64px;
+}
+.corph1{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    padding-bottom: 22px;
+}
+.roof{
+    background-image: url(./images/roof.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 248px;
+}
+.footer{
+    background-color: rgba(31, 39, 50, 1);  
+    height: 120vh;
+}
+.footer img{
+ padding-top: 130px;
+width: 100%;
+padding-bottom: 93.52px;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(4, 12%) 20%;
+    grid-template-rows: 82px auto;
+    justify-content: center;
+    gap: 20px 20px;
+    
+}
+
+.links-item1{
+    grid-column: 1/3;
+}
+ul{
+ list-style-type: none;
+}
+.foot-item a{
+    text-decoration: 0;
+    font-size: 20px;
+    font-family: 'Outfit';
+    color: rgba(215, 215, 215, 1);
+    line-height: 32px;
+    transition: 0.7s ease;
+}
+.foot-item a:hover{
+    color: rgb(255, 127, 229);
+}
+.foot-item{
+    padding-bottom: 32px;
+}
+.quick{
+  padding-top: 21.48px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  padding-left: 40px;
+}
+.bottomhr{
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 80%;
+    opacity: 0.1;
+}
+.upperhr{
+    margin-left: 40px;
+    width: 80%;
+    opacity: 0.1;
+}
+.under-foot{
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.left-foot p{
+    padding-top: 26.48px;
+    padding-bottom: 29.52px;
+    font-size: 20px;
+    color: rgba(215, 215, 215, 1);
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    font-family: 'Outfit';
+}
+.vgold{
+    color: rgba(209, 176, 107, 1);
+}
+.right-foot p{
+    font-family: 'Outfit';
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    font-size: 20px;
+}
+.right-foot i{
+color: white;
+padding-left: 20px;
+transition: 0.6s ease-out;
+}
+.right-foot i:hover{
+    color: rgb(172, 51, 51);
+}
+.last-hr{
+    margin-top: 84.52px;
+}
